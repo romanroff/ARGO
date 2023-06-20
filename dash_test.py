@@ -101,7 +101,6 @@ df['speed_of_sound'] = ((C00 + C01 * df.temp + C02 * df.temp ** 2 + C03 * df.tem
                        (B00 + B01 * df.temp + (B10 + B11 * df.temp) * df.pres) * df.psal ** 1.5 + \
                        (D00 + D10 * df.pres) * df.psal ** 2
 
-
 # ====================== Декораторы ======================#
 # Фильтрация для получения номеров циклов буя
 @app.callback(
